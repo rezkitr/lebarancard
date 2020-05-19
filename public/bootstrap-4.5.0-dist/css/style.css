@@ -3,9 +3,14 @@
   margin-top: 60px;
 }
 
+.home-page,
+.msg-page {
+  margin-bottom: 30px;
+}
+
 .home-page {
   background-repeat: no-repeat;
-  background-size: 380px 500px;
+  background-size: 320px 480px;
   background-position-y: 48px;
   background-position-x: center;
 }
