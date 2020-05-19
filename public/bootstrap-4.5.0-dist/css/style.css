@@ -107,6 +107,11 @@
     height: 100vh;
   }
 
+  .home-page,
+  .msg-page {
+    margin-bottom: 0;
+  }
+
   .home-page {
     background-repeat: no-repeat;
     background-size: 1100px 640px;
