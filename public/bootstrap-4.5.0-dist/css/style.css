@@ -1,0 +1,171 @@
+.home-page img {
+  width: 320px;
+  margin-top: 60px;
+}
+
+.home-page {
+  background-repeat: no-repeat;
+  background-size: 380px 500px;
+  background-position-y: 48px;
+  background-position-x: center;
+}
+
+.sec-2 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.home-page h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.home-page h2 {
+  font-family: "Gaegu", cursive;
+}
+
+.form-control {
+  font-weight: 600;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+}
+
+.open-btn {
+  margin-top: 20px;
+}
+
+.card {
+  background: #43c6ac; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #f8ffae,
+    #43c6ac
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #f8ffae,
+    #43c6ac
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  -webkit-box-shadow: 4px 4px 14px 2px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: 4px 4px 14px 2px rgba(0, 0, 0, 0.23);
+  box-shadow: 4px 4px 14px 2px rgba(0, 0, 0, 0.23);
+
+  border: none;
+}
+
+.row-msg {
+  margin-top: 30px;
+}
+
+.msg-page {
+  text-align: center;
+}
+
+.msg-page img {
+  width: 140px;
+}
+
+.msg-page .sec-2 {
+  margin-top: 50px;
+}
+
+.msg-page h4 {
+  font-size: 22px;
+}
+
+.msg-page h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.msg-page h5 {
+  margin-top: 40px;
+}
+
+.msg-page p {
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.salam {
+  font-family: "Caveat", cursive;
+  font-size: 26px;
+}
+
+/* Med/Desktop */
+@media (min-width: 768px) {
+  .home-page,
+  .msg-page {
+    height: 100vh;
+  }
+
+  .home-page {
+    background-repeat: no-repeat;
+    background-size: 1100px 640px;
+    background-position: center;
+  }
+
+  .row-home,
+  .row-msg {
+    height: 100%;
+  }
+
+  .row-msg {
+    margin-top: 0;
+  }
+
+  .home-page img {
+    width: 480px;
+    height: 540px;
+  }
+
+  .home-page h1 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+  }
+
+  .home-page h2 {
+    font-family: "Gaegu", cursive;
+    font-size: 36px;
+  }
+
+  .sec-1,
+  .sec-2,
+  .sec-card,
+  .sec-img {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .sec-2 {
+    text-align: left;
+  }
+
+  .form-control {
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    text-align: left;
+    height: 48px;
+  }
+
+  .open-btn {
+    margin-top: 0;
+    height: 48px;
+  }
+
+  .msg-page img {
+    width: 280px;
+  }
+
+  .sec-img {
+    height: 100%;
+  }
+
+  .msg-page .sec-2 {
+    margin-top: 0;
+  }
+}
